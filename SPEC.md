@@ -208,15 +208,16 @@ Nothing starts until the code it depends on has been split out as crates.
 ## Open decisions
 
 1. The API. The calls above are a sketch.
-2. A licence.
-3. Whether a local-model implementation is built, and which clients need it.
-4. One search key per engine with an allowance per client, or each client's
+2. Whether a local-model implementation is built, and which clients need it.
+3. One search key per engine with an allowance per client, or each client's
    own key held by cutout.
-5. How long the store keeps search results.
-6. Where the renderer runs: a fenced unit beside the service, or a throwaway
+4. How long the store keeps search results.
+5. Where the renderer runs: a fenced unit beside the service, or a throwaway
    microVM per page.
-7. Whether fetching with a site login is ever allowed. It changes what a
+6. Whether fetching with a site login is ever allowed. It changes what a
    client must tell the people whose links it reads.
+
+Decided: the licence is `MIT OR Apache-2.0` (2026-11-14).
 
 ## Not in scope
 

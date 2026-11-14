@@ -42,3 +42,13 @@ A key never sits in the process that parses a stranger's page.
 Nothing about a particular deployment belongs here: no hostnames, addresses,
 channel names, usage figures or tokens. A deployment's config lives with
 whoever runs it.
+
+## Licence
+
+Licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
+- MIT licence ([LICENSE-MIT](LICENSE-MIT))
+
+at your option. Unless you say otherwise, anything you contribute is licensed
+the same way, with no further terms.
